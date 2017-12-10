@@ -23,10 +23,6 @@ def scrapy(page):
             photo_src = frontpage.find('div', {'class': 'img'}).find('img')['data-src']
             urllib.request.urlretrieve('http:' + photo_src, filename=dir + title + file_format)
 
-def printnum(page):
-    while True:
-        print(page)
-
 threads = []
 
 for page in range(1, 16):
