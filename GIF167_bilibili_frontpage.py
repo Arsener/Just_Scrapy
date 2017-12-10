@@ -1,6 +1,7 @@
 '''
 抓取B站up主-十万个内涵图-邪恶福利GIF合集系列视频封面
 '''
+import threading
 import urllib.request
 from bs4 import BeautifulSoup
 
@@ -9,7 +10,7 @@ order_by = '&order=pubdate'
 dir = 'D:/十万个内涵图封面/'
 file_format = '.jpg'
 
-for page in range(1, 16):
+def scrapy(page):
     request = urllib.request.urlopen(url + str(page) + order_by)
 
     html = BeautifulSoup(request.read(), 'html5lib')
@@ -21,3 +22,16 @@ for page in range(1, 16):
             print(frontpage.find('div', {'class': 'img'}).find('img')['data-src'])
             photo_src = frontpage.find('div', {'class': 'img'}).find('img')['data-src']
             urllib.request.urlretrieve('http:' + photo_src, filename=dir + title + file_format)
+
+def printnum(page):
+    while True:
+        print(page)
+
+threads = []
+
+for page in range(1, 16):
+    t = threading.Thread(target=scrapy, args=(page,))
+    threads.append(t)
+
+for thread in threads:
+    thread.start()
