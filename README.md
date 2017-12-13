@@ -14,5 +14,10 @@
 
   从百度图片中爬取文字表情包，使用多线程爬取
 
-  ​
+* instagram.py
 
+
+  爬取Instagram上的图片，使用selenium模拟浏览器，单线程爬取。爬取的两个ins账户为：
+
+  * [natgeotravel](https://www.instagram.com/natgeotravel/)
+  * [natgeo](https://www.instagram.com/natgeo/)
