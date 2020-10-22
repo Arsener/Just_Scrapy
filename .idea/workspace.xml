@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f58a582f-8ddc-4f37-a971-723c2ee6ba2a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/USNews/.ipynb_checkpoints/university ranking-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USNews/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USNews/const.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USNews/ranking.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/USNews/university ranking.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Just_Scrapy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Just_Scrapy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USNews/get_url.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/World University Rankings 2021/World University Rankings 2021.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/World University Rankings 2021/World University Rankings 2021.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USNews/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USNews/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USNews/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,18 +38,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/USNews" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Arsener\PycharmProjects\Just_Scrapy\USNews" />
       <recent name="C:\Users\Arsener\PycharmProjects\Just_Scrapy" />
       <recent name="C:\Users\Arsener\PycharmProjects\Just_Scrapy\World University Rankings 2021" />
       <recent name="C:\Users\Arsener\PycharmProjects\Just_Scrapy\University Ranking" />
       <recent name="C:\Users\arsener\PycharmProjects\Just_Scrapy" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.__init__ (2)">
+  <component name="RunManager" selected="Python.get_detail">
     <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Just_Scrapy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,28 +65,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/World University Rankings 2021/__init__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="__init__ (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Just_Scrapy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/USNews" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/USNews/__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,6 +95,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="get_detail" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Just_Scrapy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/USNews" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/USNews/get_detail.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_url" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Just_Scrapy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/USNews" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Arsener\PycharmProjects\Just_Scrapy\USNews\get_url.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="imdb_rating" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Just_Scrapy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,42 +161,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Just_Scrapy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.imdb_rating" />
       <item itemvalue="Python.__init__" />
       <item itemvalue="Python.__init__ (1)" />
-      <item itemvalue="Python.__init__ (2)" />
+      <item itemvalue="Python.get_url" />
+      <item itemvalue="Python.get_detail" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.__init__ (2)" />
+        <item itemvalue="Python.get_detail" />
+        <item itemvalue="Python.get_url" />
         <item itemvalue="Python.__init__ (1)" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.imdb_rating" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -241,26 +238,30 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1038" height="329" key="GridCell.Tab.0.bottom" timestamp="1603298485345">
+    <state width="1038" height="329" key="GridCell.Tab.0.bottom" timestamp="1603379394407">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
     <state width="1038" height="329" key="GridCell.Tab.0.bottom/0.0.1080.720/2160.0.1920.1080@0.0.1080.720" timestamp="1597676909189" />
-    <state width="1038" height="329" key="GridCell.Tab.0.bottom/0.0.1080.720@0.0.1080.720" timestamp="1603298485345" />
-    <state width="1038" height="329" key="GridCell.Tab.0.center" timestamp="1603298485345">
+    <state width="1038" height="329" key="GridCell.Tab.0.bottom/0.0.1080.720@0.0.1080.720" timestamp="1603379394407" />
+    <state width="1877" height="329" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603358668670" />
+    <state width="1038" height="329" key="GridCell.Tab.0.center" timestamp="1603379394407">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
     <state width="1038" height="329" key="GridCell.Tab.0.center/0.0.1080.720/2160.0.1920.1080@0.0.1080.720" timestamp="1597676909188" />
-    <state width="1038" height="329" key="GridCell.Tab.0.center/0.0.1080.720@0.0.1080.720" timestamp="1603298485345" />
-    <state width="1038" height="329" key="GridCell.Tab.0.left" timestamp="1603298485344">
+    <state width="1038" height="329" key="GridCell.Tab.0.center/0.0.1080.720@0.0.1080.720" timestamp="1603379394407" />
+    <state width="1877" height="329" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603358668670" />
+    <state width="1038" height="329" key="GridCell.Tab.0.left" timestamp="1603379394406">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
     <state width="1038" height="329" key="GridCell.Tab.0.left/0.0.1080.720/2160.0.1920.1080@0.0.1080.720" timestamp="1597676909188" />
-    <state width="1038" height="329" key="GridCell.Tab.0.left/0.0.1080.720@0.0.1080.720" timestamp="1603298485344" />
-    <state width="1038" height="329" key="GridCell.Tab.0.right" timestamp="1603298485345">
+    <state width="1038" height="329" key="GridCell.Tab.0.left/0.0.1080.720@0.0.1080.720" timestamp="1603379394406" />
+    <state width="1877" height="329" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603358668670" />
+    <state width="1038" height="329" key="GridCell.Tab.0.right" timestamp="1603379394407">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
     <state width="1038" height="329" key="GridCell.Tab.0.right/0.0.1080.720/2160.0.1920.1080@0.0.1080.720" timestamp="1597676909189" />
-    <state width="1038" height="329" key="GridCell.Tab.0.right/0.0.1080.720@0.0.1080.720" timestamp="1603298485345" />
+    <state width="1038" height="329" key="GridCell.Tab.0.right/0.0.1080.720@0.0.1080.720" timestamp="1603379394407" />
+    <state width="1877" height="329" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603358668670" />
     <state x="42" y="3" key="SettingsEditor" timestamp="1603294537568">
       <screen x="0" y="0" width="1080" height="720" />
     </state>
@@ -273,10 +274,11 @@
       <screen x="0" y="0" width="1080" height="720" />
     </state>
     <state x="294" y="76" width="798" height="627" key="dock-window-1/0.0.1080.720/2160.0.1920.1080@0.0.1080.720" timestamp="1597676556814" />
-    <state x="206" y="45" width="672" height="678" key="search.everywhere.popup" timestamp="1603298207091">
-      <screen x="0" y="0" width="1080" height="720" />
+    <state x="366" y="68" width="1195" height="1017" key="search.everywhere.popup" timestamp="1603358556482">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="206" y="45" width="672" height="678" key="search.everywhere.popup/0.0.1080.720@0.0.1080.720" timestamp="1603298207091" />
+    <state x="366" y="68" width="1195" height="1017" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603358556482" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -292,8 +294,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Just_Scrapy$douban.coverage" NAME="douban_top250 Coverage Results" MODIFIED="1586668265061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Just_Scrapy$douban_id.coverage" NAME="douban_id Coverage Results" MODIFIED="1586689359886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Just_Scrapy$get_detail.coverage" NAME="get_detail Coverage Results" MODIFIED="1603358668662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/USNews" />
     <SUITE FILE_PATH="coverage/Just_Scrapy$get_info_db.coverage" NAME="get_info_db Coverage Results" MODIFIED="1586958112855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Just_Scrapy$__init____2_.coverage" NAME="__init__ (2) Coverage Results" MODIFIED="1603298485317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/USNews" />
+    <SUITE FILE_PATH="coverage/Just_Scrapy$__init____2_.coverage" NAME="get_url Coverage Results" MODIFIED="1603358579115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/USNews" />
     <SUITE FILE_PATH="coverage/Just_Scrapy$net_ease_roll.coverage" NAME="net_ease_roll Coverage Results" MODIFIED="1579831085474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Just_Scrapy$imdb_rating.coverage" NAME="imdb_rating Coverage Results" MODIFIED="1588045921023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Just_Scrapy$test.coverage" NAME="test Coverage Results" MODIFIED="1587129425137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
