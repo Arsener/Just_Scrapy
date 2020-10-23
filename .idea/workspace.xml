@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f58a582f-8ddc-4f37-a971-723c2ee6ba2a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Just_Scrapy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Just_Scrapy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USNews/.ipynb_checkpoints/get_detail-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/USNews/.ipynb_checkpoints/get_detail-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USNews/get_detail.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/USNews/get_detail.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USNews/USNews格式参考(1).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/USNews/USNews格式参考(1).xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +34,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/USNews" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -174,11 +172,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.imdb_rating" />
-      <item itemvalue="Python.__init__" />
       <item itemvalue="Python.__init__ (1)" />
-      <item itemvalue="Python.get_url" />
+      <item itemvalue="Python.__init__" />
       <item itemvalue="Python.get_detail" />
+      <item itemvalue="Python.get_url" />
+      <item itemvalue="Python.imdb_rating" />
     </list>
     <recent_temporary>
       <list>
