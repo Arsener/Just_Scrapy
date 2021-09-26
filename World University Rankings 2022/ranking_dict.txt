@@ -1,0 +1,39 @@
+World University Rankings###Research+++Citations+++Overall+++International Outlook+++Teaching+++Industry Income
+World Reputation Rankings###Research+++Overall+++Teaching
+Arts & humanities###Research+++Citations+++Overall+++International Outlook+++Teaching+++Industry Income
+Clinical, pre-clinical & health###Research+++Citations+++Overall+++International Outlook+++Teaching+++Industry Income
+Engineering & technology###Research+++Citations+++Overall+++International Outlook+++Teaching+++Industry Income
+Life sciences###Research+++Citations+++Overall+++International Outlook+++Teaching+++Industry Income
+Physical sciences###Research+++Citations+++Overall+++International Outlook+++Teaching+++Industry Income
+Social sciences###Research+++Citations+++Overall+++International Outlook+++Teaching+++Industry Income
+Business & Economics###Research+++Citations+++Overall+++International Outlook+++Teaching+++Industry Income
+Computer Science###Research+++Citations+++Overall+++International Outlook+++Teaching+++Industry Income
+Law###Research+++Citations+++Overall+++International Outlook+++Teaching+++Industry Income
+Education###Research+++Citations+++Overall+++International Outlook+++Teaching+++Industry Income
+European Teaching###Outcomes+++Overall+++Environment+++Resources+++Engagement
+US Rankings###Outcomes+++Overall+++Environment+++Resources+++Engagement
+Psychology###Research+++Citations+++Overall+++International Outlook+++Teaching+++Industry Income
+Impact Rankings: Partnerships for the goals###Overall
+Impact Rankings: Climate action###Overall
+Impact Rankings: Sustainable cities and communities###Overall
+Impact Rankings: Reducing inequalities###Overall
+Impact Rankings: Industry, Innovation, and Infrastructure###Overall
+Impact Rankings: Affordable and clean energy###Overall
+Impact Rankings: Clean water and sanitation###Overall
+Impact Rankings: Gender equality###Overall
+Impact Ranking###Overall
+Impact Rankings: Good health and well-being###Overall
+Asia University Rankings###Research+++Citations+++Overall+++International Outlook+++Teaching+++Industry Income
+Emerging Economies###Research+++Citations+++Overall+++International Outlook+++Teaching+++Industry Income
+Impact Rankings: Peace, justice and strong institutions###Overall
+Impact Rankings: Responsible consumption and production###Overall
+Impact Rankings: Decent work and economic growth###Overall
+Impact Rankings: Quality education###Overall
+Impact Rankings: Zero hunger###Overall
+Impact Rankings: No poverty###Overall
+Impact Rankings: Life on land###Overall
+Impact Rankings: Life below water###Overall
+Japan University Rankings###Outcomes+++Overall+++Environment+++Resources+++Engagement
+Young University Rankings###Research+++Citations+++Overall+++International Outlook+++Teaching+++Industry Income
+Latin America Rankings###Research+++Citations+++Overall+++International Outlook+++Teaching+++Industry Income
+Arab University Rankings###Research+++Society+++Citations+++Overall+++International Outlook+++Teaching
